@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header, .header nav {
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: palevioletred;
+    color: white;
+}
+
+.header h1 {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: solid;
+}
