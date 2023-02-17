@@ -67,18 +67,21 @@ p {
 
 .app {
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    width: 100%;
+    flex: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: max-content;
+    position: relative;
 }
 
 .place-holder{
     float: right;
 }
 
-.box-three{
+#box-three{
     flex-direction: column;
-    display: flex;
+    justify-content: center;
 }
 
 h2{
@@ -89,4 +92,7 @@ h2{
 h3{
     font-weight:bold;
     text-decoration:underline;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
 }
